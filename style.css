@@ -1,0 +1,92 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+html {
+  background-color: white;
+}
+
+body,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: "Dosis", sans-serif;
+}
+
+.header {
+  background: linear-gradient(90.34deg, #FD712C 0.12%, #FD6E2F 15.71%, #FC6636 30.26%, #F9504B 52.08%, #F01E75 99.88%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+img {
+  padding-left: 20rem;
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  padding-right: 20rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.menu li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  padding: 8px 20px;
+}
+
+.download {
+  position: relative;
+  top: 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 0.8rem;
+  border-radius: 100px;
+  outline: none;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+  font-weight: bolder;
+  transition: box-shadow 0.2s ease-out, top 0.2s ease-out;
+}
+
+.download:hover {
+  top: -3px;
+  box-shadow: 0 2px 10px 0 #434343;
+}
+
+.download:active {
+  top: 0;
+  box-shadow: 0 2px 10px 0 #434343;
+}
