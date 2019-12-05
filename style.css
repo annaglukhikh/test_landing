@@ -187,12 +187,12 @@ li {
   display: flex;
   flex-wrap: wrap;
   flex: 1 1 auto;
-  max-width: 800px;
+  max-width: 1100px;
   margin: 5rem auto;
 }
 
 .description > div {
-  flex: 1 1 300px;
+  flex: 1 1 260px;
   margin: 10px;
 }
 
@@ -214,4 +214,79 @@ li {
 
 .div-wrapper {
   max-width: 300px;
+}
+
+.wrapper-divider
+{
+	padding-bottom: 90px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 1.5rem;
+	height: 1px;
+}
+
+.div-transparent:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	height: 1.5px;
+	background-color: #EEEEEE;
+}
+
+.large-mockup {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.large-mockup > div {
+  flex: 1 1 260px;
+  margin: 10px;
+}
+
+.mockup-title {
+  font-size: 1.625rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  max-width: 520px;
+  margin-top: 2rem;
+}
+
+.large-mockup-img {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.description-mockup-img {
+  margin-right: 1rem;
+}
+
+.div-mockup-wrapper {
+  max-width: 690px;
+}
+
+.p-title {
+  color: black;
+  max-width: 520px;
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+}
+
+.mockup-list {
+  color: black;
+  max-width: 520px;
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
 }
