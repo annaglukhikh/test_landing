@@ -93,7 +93,7 @@ a {
   background: linear-gradient(90.34deg, #FD712C 0.12%, #FD6E2F 15.71%, #FC6636 30.26%, #F9504B 52.08%, #F01E75 99.88%);
   margin: 0;
   padding: 0;
-  height: 600px;
+  height: 20%;
 }
 
 .first-block-wrapper-container {
@@ -257,8 +257,8 @@ li {
   font-size: 1.625rem;
   font-weight: bolder;
   margin-bottom: 0.5rem;
-  max-width: 520px;
-  margin-top: 2rem;
+  max-width: 620px;
+  margin-top: 2.1rem;
 }
 
 .large-mockup-img {
@@ -268,7 +268,7 @@ li {
 }
 
 .description-mockup-img {
-  margin-right: 1rem;
+  margin-right: 11.5rem;
 }
 
 .div-mockup-wrapper {
@@ -289,4 +289,8 @@ li {
   display: block;
   margin-bottom: 2rem;
   padding-top: 0.5rem;
+}
+
+img {
+  max-width: 100%;
 }
