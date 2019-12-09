@@ -1,0 +1,204 @@
+@import url(reset.css);
+
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+html {
+  background-color: white;
+}
+
+body,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Dosis", sans-serif;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.header {
+  background: linear-gradient(90.34deg, #FD712C 0.12%, #FD6E2F 15.71%, #FC6636 30.26%, #F9504B 52.08%, #F01E75 99.88%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  padding-left: 9.5rem;
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu {
+  display: flex;
+  padding-right: 9.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  padding: 8px 20px;
+}
+
+.download {
+  position: relative;
+  top: 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 0.8rem;
+  border-radius: 100px;
+  outline: none;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border: none;
+  font-weight: bolder;
+  transition: box-shadow 0.2s ease-out, top 0.2s ease-out;
+}
+
+.download:hover {
+  top: -3px;
+  box-shadow: 0 2px 10px 0 #434343;
+}
+
+.download:active {
+  top: 0;
+  box-shadow: 0 2px 10px 0 #434343;
+}
+
+.description {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  max-width: 1100px;
+  margin: 5rem auto;
+}
+
+.description > div {
+  flex: 1 1 260px;
+  margin: 10px;
+}
+
+.block-title {
+  font-size: 1rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+.flex-img {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.description-img {
+  margin-right: 1rem;
+}
+
+.div-wrapper {
+  max-width: 300px;
+}
+
+.wrapper-divider
+{
+	padding-bottom: 90px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 1.5rem;
+	height: 1px;
+}
+
+.div-transparent:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	height: 1.5px;
+	background-color: #EEEEEE;
+}
+
+/*carousel start*/
+
+.carousel {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-container {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  border: 5px solid white;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  height: 350px;
+
+}
+
+#prevBtn {
+  border: 3px solid grey;
+  width: 48px;
+  height: 32px;
+  border-radius: 100px;
+  padding-top: 1rem;
+  background: white;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  left: 5%;
+  font-style: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#nextBtn {
+  border: 3px solid grey;
+  width: 48px;
+  height: 32px;
+  border-radius: 100px;
+  padding-top: 1rem;
+  background: linear-gradient(90deg, #FC722E 5.17%, #F32177 100%);
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  right: 5%;
+  font-style: 30px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/*carousel end*/
