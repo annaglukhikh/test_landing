@@ -95,6 +95,101 @@ h1 {
   box-shadow: 0 2px 10px 0 #434343;
 }
 
+.mockup {
+  display: block;
+  background: linear-gradient(90.34deg, #FD712C 0.12%, #FD6E2F 15.71%, #FC6636 30.26%, #F9504B 52.08%, #F01E75 99.88%);
+  margin: 0;
+  padding: 0;
+  height: 20%;
+}
+
+.first-block-wrapper-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+  vertical-align: baseline;
+  text-decoration: none;
+  max-height: 1000px;
+}
+
+.left-block-content {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  vertical-align: baseline;
+  padding: 0;
+}
+
+.title-one {
+  padding-right: 20rem;
+  padding-top: 9.5rem;
+  color: white;
+  max-width: 400px;
+  display: block;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  margin-right: 20rem;
+  font-weight: bolder;
+}
+
+.p-one {
+  color: white;
+  max-width: 500px;
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+  line-height: 1.2rem;
+}
+
+li {
+  padding-top: 1rem;
+}
+
+.start-exploring-us {
+  height: 40px;
+  width: 140px;
+  margin-top: 2rem;
+  position: relative;
+  top: 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 0.8rem;
+  border-radius: 100px;
+  outline: none;
+  background: white;
+  color: black;
+  text-decoration: none;
+  border: 3px solid #E2602C;
+  font-weight: bolder;
+  transition: box-shadow 0.2s ease-out, top 0.2s ease-out;
+}
+
+.start-exploring-us:hover {
+  top: -5px;
+  box-shadow: 0 2px 10px 0 #434343;
+}
+
+.start-exploring-us:active {
+  top: 0;
+  box-shadow: 0 2px 10px 0 #434343;
+}
+
+.iphone-mockup {
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: baseline;
+  padding-left: 540px;
+}
+
 .description {
   min-height: 100%;
   display: flex;
@@ -128,11 +223,16 @@ h1 {
 
 .div-wrapper {
   max-width: 80%;
+  line-height: 1.2rem;
+}
+
+p {
+  color: grey;
 }
 
 .wrapper-divider
 {
-	padding-bottom: 1rem;
+	padding-bottom: 5rem;
 }
 
 .divider
@@ -151,6 +251,58 @@ h1 {
 	width: 80%;
 	height: 1.5px;
 	background-color: #EEEEEE;
+}
+
+.large-mockup {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.large-mockup > div {
+  flex: 1 1 260px;
+  margin: 10px;
+}
+
+.mockup-title {
+  font-size: 1.625rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  max-width: 620px;
+  margin-top: 2.1rem;
+}
+
+.large-mockup-img {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.description-mockup-img {
+  margin-right: 11.5rem;
+}
+
+.div-mockup-wrapper {
+  max-width: 690px;
+}
+
+.p-title {
+  color: grey;
+  max-width: 520px;
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
+}
+
+.mockup-list {
+  color: grey;
+  max-width: 520px;
+  display: block;
+  margin-bottom: 2rem;
+  padding-top: 0.5rem;
 }
 
 .carousel-header {
@@ -344,6 +496,103 @@ button:active {
   margin: 0;
 }
 
+.review {
+  width: 100%;
+  height: 80%;
+  background-color: white;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 2rem;
+  z-index: 0;
+}
+
+.review-cards {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  max-width: 80%;
+  margin: 5rem auto;
+}
+
+.review-cards > div {
+  flex: 1 1 260px;
+  margin: 10px;
+}
+
+.review-header {
+  color: black;
+  padding-top: 4rem;
+  text-align: center;
+  align-items: center;
+}
+
+.descr-review {
+  color: grey;
+}
+/*
+.review-arrows {
+  padding-top: 12%;
+}
+*/
+.alexandra, .samantha {
+  background-color: #F7FAFC;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.gary-white {
+  background-color: white;
+  display: flex;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+}
+
+.userpic-img {
+  float: left;
+  height: 50%;
+  padding: 1rem;
+}
+
+.review-text {
+  text-align: left;
+  color: grey;
+  display: inline-block;
+  float: left;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  line-height: 2rem;
+}
+
+.review-info {
+  display: flex;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+}
+
+.name-and-company {
+  text-align: left;
+  float: left;
+  padding-top: 3.3rem;
+  padding-left: 1rem;
+}
+
+.person-name {
+  color: black;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+
+/*
+download section
+*/
 .download-app {
   margin-top: 5rem;
   width: 100%;
@@ -357,21 +606,27 @@ button:active {
 }
 
 .download-container {
-  margin: auto;
-  width: 80%;
-  padding-top: 3.5rem;
-  padding-bottom: 5rem;
+  min-height: 100%;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  flex: 1 1 auto;
+  max-width: 80%;
+  margin: 5rem auto;
+}
+
+.download-container > div {
+  flex: 1 1 260px;
+  margin: 10px;
+}
+
+.download-giant {
+  padding-top: 4rem;
 }
 
 .apple, .android, .windows {
-  width: 30%;
-  height: 50%;
   background-color: white;
+  display: flex;
+  box-sizing: border-box;
 }
 
 .apple-img, .android-img, .windows-img {
@@ -380,15 +635,38 @@ button:active {
 }
 
 .app-heading {
-  color: black;
+  text-align: left;
   float: left;
+  padding-top: 3.3rem;
   padding-left: 1rem;
-  padding-top: 3.2rem;
+}
+
+.app-heading-download {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
 }
 
 .app-descr {
   font-size: 1rem;
   color: grey;
-  float: left;
-  padding-left: 1rem;
+}
+
+.footer {
+  height: 8.375rem;
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  color: white;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.footer-content {
+  padding-top: 1rem;
+  font-size: 0.9rem;
 }
